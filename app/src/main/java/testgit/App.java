@@ -12,7 +12,7 @@ public class App {
         System.out.println(new App().getGreeting());
     }
 
-    public int sumar() {
-        return 2+2;
+    public int sumar(int n1, int n2) {
+        return n1+n2;
     }
 }
